@@ -1,0 +1,7 @@
+[
+ {"id":"refund", "title":"Refund eligibility", "text":"Refund a settled payment charged after subscription cancellation or a verified duplicate charge. Otherwise a scoped policy exception is required. Never refund beyond the remaining balance."},
+ {"id":"authorization", "title":"Financial authorization", "text":"Refunds and replacement value up to 2500 cents can be automatic; up to 25000 cents need customer confirmation; larger amounts need human approval. Risk can raise required authority. Configured thresholds are authoritative."},
+ {"id":"cancel", "title":"Cancel subscription", "text":"Customers can cancel their own active subscription after confirmation. Already cancelled subscriptions need no further change."},
+ {"id":"order", "title":"Orders and shipping", "text":"Shipment status is read only. Address correction needs confirmation and is allowed before shipping. A verified missing order may be replaced once."},
+ {"id":"credit", "title":"Account credits", "text":"Account credits need an unexpired operator policy exception scoped to this customer, target and maximum amount."}
+]

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "conduit-resolution"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "sqlalchemy>=2.0,<2.1", "alembic>=1.13,<2", "psycopg[binary]>=3.2,<4", "pydantic-settings>=2.5,<3", "httpx>=0.27,<1", "redis>=5,<7", "stripe>=11,<15", "scikit-learn>=1.5,<2"]
+[project.optional-dependencies]
+test = ["pytest>=8,<9", "hypothesis>=6,<7"]
+[tool.setuptools.packages.find]
+include = ["backend*", "benchmark*"]
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+"backend.policies" = ["documents.json"]

@@ -1,0 +1,15 @@
+{
+  "benchmark_sha256": "b3a72c2d119a53244d7c7bb195dea19d059f8e537188c97155a43468127f5f0c",
+  "cases": 500,
+  "families": 25,
+  "seed": 41,
+  "python": "3.12.14",
+  "measured_planner": "deterministic_rules",
+  "tests_passed": 45,
+  "frontend_build": "passed",
+  "browser_e2e": "not run - browser executable unavailable",
+  "postgres_runtime": "not available locally - CI supplied",
+  "external_model_runs": 0,
+  "live_stripe_runs": 0,
+  "public_deployment": false
+}

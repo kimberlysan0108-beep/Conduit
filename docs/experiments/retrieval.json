@@ -1,0 +1,65 @@
+{
+  "queries": 5,
+  "metrics": {
+    "recall_at_3": 1.0,
+    "mrr": 1.0,
+    "ndcg_at_3": 0.9839441578296375
+  },
+  "rows": [
+    {
+      "query": "charged after cancellation refund",
+      "hits": [
+        "refund",
+        "cancel",
+        "authorization"
+      ],
+      "recall_at_3": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_3": 1.0
+    },
+    {
+      "query": "who approves high amount refund",
+      "hits": [
+        "refund",
+        "credit",
+        "authorization"
+      ],
+      "recall_at_3": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_3": 0.9197207891481876
+    },
+    {
+      "query": "stop subscription cancel",
+      "hits": [
+        "cancel",
+        "refund",
+        "authorization"
+      ],
+      "recall_at_3": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_3": 1.0
+    },
+    {
+      "query": "shipping tracking address replacement",
+      "hits": [
+        "order",
+        "authorization",
+        "refund"
+      ],
+      "recall_at_3": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_3": 1.0
+    },
+    {
+      "query": "credit exception approved account",
+      "hits": [
+        "credit",
+        "refund",
+        "authorization"
+      ],
+      "recall_at_3": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_3": 1.0
+    }
+  ]
+}
